@@ -2,7 +2,7 @@
 // 1. Section Text Auto Loader
 const text = document.querySelector(".sec-text");
 function textLoad() {
-    setTimeout(() => text.textContent = "Pursuing BCA", 0);
+    setTimeout(() => text.textContent = "Java Developer ", 0);
     setTimeout(() => text.textContent = "FrontEndDeveloper", 4000);
     setTimeout(() => text.textContent = "SoftwareDeveloper", 8000);
 }
@@ -14,10 +14,10 @@ const readMore = document.querySelector(".read-more");
 readMore.addEventListener("click", () => {
     readMore.classList.toggle("clicked");
     if (readMore.classList.contains("clicked")) {
-        aboutMeText.textContent = "Hey there! I'm Saurav, pursuing BCA and software developer specializing in Java. I love turning ideas into functional software and applications. Passionate about creativity and problem-solving, I thrive on crafting seamless user experiences. My journey in technology began with a curiosity-driven exploration of programming languages and software development. Along the way, I've honed my skills in front-end, Java & its framework technologies. I'm constantly seeking ways to innovate and elevate the digital experience. Outside of coding, you'll find me exploring the intersection of technology and design, experimenting with new frameworks, or immersing myself in the vibrant tech community. I thrive in collaborative environments and am always eager to learn from and share knowledge with fellow enthusiasts.";
+        aboutMeText.textContent = "Hey there! I'm Saurav,software developer specializing in Java. I love turning ideas into functional software and applications. Passionate about creativity and problem-solving, I thrive on crafting seamless user experiences. My journey in technology began with a curiosity-driven exploration of programming languages and software development. Along the way, I've honed my skills in front-end, Java & its framework technologies. I'm constantly seeking ways to innovate and elevate the digital experience. Outside of coding, you'll find me exploring the intersection of technology and design, experimenting with new frameworks, or immersing myself in the vibrant tech community. I thrive in collaborative environments and am always eager to learn from and share knowledge with fellow enthusiasts.";
         readMore.textContent = "Read Less";
     } else {
-        aboutMeText.textContent = "Hey there! I'm Saurav, pursuing BCA and software developer specializing in Java. I love turning ideas into functional software and applications. Passionate about creativity and problem-solving, I thrive on crafting seamless user experiences. Let's collaborate and bring your vision to life!...";
+        aboutMeText.textContent = "Hey there! I'm Saurav,software developer specializing in Java. I love turning ideas into functional software and applications. Passionate about creativity and problem-solving, I thrive on crafting seamless user experiences. Let's collaborate and bring your vision to life!...";
         readMore.textContent = "Read More";
     }
 });
